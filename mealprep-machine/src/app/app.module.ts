@@ -21,4 +21,3 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 })
 export class AppModule { }
 
-var maintitle = "Mealprep Machine";
