@@ -8,10 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'mealprep-machine';
   mainTitle = "Mealprep Machine";
-  submit = "Submit";
-  vegan = "Vegan";
-  vegetarian = "Vegetarian";
-  plantBased = "Plant Based";
-  none = "None";
 }
 
