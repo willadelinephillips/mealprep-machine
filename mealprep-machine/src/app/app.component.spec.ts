@@ -10,7 +10,6 @@ describe('AppComponent', () => {
       ],
       declarations: [
         AppComponent
-        var maintitle = "Mealprep Machine";
       ],
     }).compileComponents();
   });
