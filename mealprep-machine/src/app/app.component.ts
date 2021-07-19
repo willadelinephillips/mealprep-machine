@@ -9,5 +9,9 @@ export class AppComponent {
   title = 'mealprep-machine';
   maintitle = "Mealprep Machine";
   submit = "Submit";
+  vegan = "Vegan";
+  vegetarian = "Vegetarian";
+  plantbased = "Plant Based";
+  none = "None";
 }
 
