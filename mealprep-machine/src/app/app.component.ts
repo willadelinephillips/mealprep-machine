@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mealprep-machine';
-  maintitle = "Mealprep Machine";
+  mainTitle = "Mealprep Machine";
   submit = "Submit";
   vegan = "Vegan";
   vegetarian = "Vegetarian";
-  plantbased = "Plant Based";
+  plantBased = "Plant Based";
   none = "None";
 }
 
