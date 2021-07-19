@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mealprep-machine';
-  maintitle = "Mealprep Machine";
+  mainTitle = "Mealprep Machine";
 }
 
