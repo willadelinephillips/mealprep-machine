@@ -1,6 +1,9 @@
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+import {Component} from '@angular/core';
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -17,6 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatToolbarModule,
     MatButtonModule,
     MatButtonToggleModule,
+    MatInputModule,
+    MatIconModule,
 
     BrowserModule,
     AppRoutingModule,
@@ -26,4 +31,5 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 
