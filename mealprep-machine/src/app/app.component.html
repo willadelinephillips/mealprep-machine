@@ -3,18 +3,34 @@
   <span>{{mainTitle}}</span>
 </mat-toolbar>
 </p>
-
 <p>
-  <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-  <mat-button-toggle value="">Vegan</mat-button-toggle>
-  <mat-button-toggle value="">Vegetarian</mat-button-toggle>
-  <mat-button-toggle value="">Plant Based</mat-button-toggle>
-  <mat-button-toggle value="">None</mat-button-toggle>  
-</mat-button-toggle-group>
+  <mat-list>
+    <mat-list-item>Your Info</mat-list-item>
+    <form class="example-form">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>First Name</mat-label>
+        <input matInput placeholder="Ex. Pizza">
+      </mat-form-field></form>
+    <mat-divider></mat-divider>
+    <mat-list-item>Preferences</mat-list-item>
+    <p>
+      <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+      <mat-button-toggle value="">Vegan</mat-button-toggle>
+      <mat-button-toggle value="">Vegetarian</mat-button-toggle>
+      <mat-button-toggle value="">Plant Based</mat-button-toggle>
+      <mat-button-toggle value="">None</mat-button-toggle>  
+    </mat-button-toggle-group>
+    </p>
+    <mat-divider></mat-divider>
+    <mat-list-item>Time Frame</mat-list-item>
+    <mat-divider></mat-divider>
+  </mat-list>
 </p>
+
 
 <p>
   <button mat-raised-button color="accent">Submit</button>
 </p>
+
 
 <router-outlet></router-outlet>
