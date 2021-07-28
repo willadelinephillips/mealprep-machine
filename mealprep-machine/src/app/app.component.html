@@ -13,8 +13,13 @@
     <form class="example-form">
       <mat-form-field class="example-full-width" appearance="fill">
         <mat-label>First Name</mat-label>
-        <input matInput placeholder="Ex. Pizza">
+        <input matInput placeholder="Ex. 'Pizza'">
       </mat-form-field></form>
+      <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Mealprep Plan Title</mat-label>
+          <input matInput placeholder="Ex. 'This week', 'Vegan week'">
+        </mat-form-field></form>
     <mat-divider></mat-divider>
     <mat-list-item>Preferences</mat-list-item>
     <p>
@@ -25,11 +30,15 @@
       <mat-button-toggle value="">None</mat-button-toggle>  
     </mat-button-toggle-group>
     </p>
+    <section class="example-section">
+      <h4>Meals to be Prepped:</h4>
+      <p><mat-checkbox formControlName="breakfast">Breakfast</mat-checkbox></p>
+      <p><mat-checkbox formControlName="lunch">Lunch</mat-checkbox></p>
+      <p><mat-checkbox formControlName="dinner">Dinner</mat-checkbox></p>
+      <p><mat-checkbox formControlName="snacks">Snacks</mat-checkbox></p>
+    </section>
     <mat-divider></mat-divider>
     <mat-list-item>Time Frame</mat-list-item>
-    <p>
-      
-    </p>
     <mat-divider></mat-divider>
   </mat-list>
 </p>
